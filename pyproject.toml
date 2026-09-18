@@ -1,0 +1,18 @@
+[project]
+name = "api-client-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JeauLabyorteaux", email = "jeau711@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+api-client-app = "api_client_app:main"
+
